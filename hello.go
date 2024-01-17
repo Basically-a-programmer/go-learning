@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func hello() {
 	// types of variable
 	//  bool , string
 	// int , uint (unsigned int) , float , complex , byte, rune ( char)
