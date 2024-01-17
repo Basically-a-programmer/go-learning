@@ -1,8 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
-func hello() {
+func variable() {
 	// types of variable
 	//  bool , string
 	// int , uint (unsigned int) , float , complex , byte, rune ( char)
@@ -18,5 +20,9 @@ func hello() {
 	fmt.Println("the average", average)
 	fmt.Println("the display", message)
 	fmt.Println("sum = ", num+pul)
+
+	var n complex128 = complex(1, 5)
+
+	fmt.Println("the real value is ", real(n), "the complex value is ", imag(n))
 
 }
